@@ -1,0 +1,18 @@
+.card {
+    margin: 1rem auto;
+    border-radius: 6px;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 100%;
+    max-width: 60rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+       margin-top: 380px;
+    }
+  }
+    
+

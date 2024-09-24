@@ -1,0 +1,53 @@
+.main_container {
+    background-color: rgb(41, 40, 40);
+    position: relative;
+    height: 500px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_container .items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+
+.company_legal_social {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #847973;
+}
+
+.company_legal_social_items {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: #6057bd;
+    cursor: pointer;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .main_container {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
